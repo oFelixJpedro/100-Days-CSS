@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Inter, sans-serif, Arial;
+
+    overflow-x: hidden;
+}
+
+
+@media (max-width: 480px){
+    body .projetoUm{
+        padding: 0rem;
+    }
+
+    body .projetoDois{
+        padding: 0rem;
+    }
+
+    body .projetoTres{
+        padding: 0rem;
+    }
+
+    body .projetoTres .principal{
+        width: 20rem;
+        height: 20rem;
+    }
+
+    body .projetoTres .principal .cima{
+        clip-path: circle(10rem at 50% 100%);
+    }
+
+    body .projetoTres .principal .cima .sol{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    body .projetoTres .principal .baixo{
+        clip-path: circle(10rem at 50% 0%);
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    body .projetoUm{
+        padding: 0rem;
+    }
+
+    body .projetoDois{
+        padding: 0rem;
+    }
+
+    body .projetoTres{
+        padding: 0rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    body .projetoUm{
+        padding: 0rem;
+    }
+
+    body .projetoDois{
+        padding: 0rem;
+    }
+
+    body .projetoTres{
+        padding: 0rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    body .projetoUm{
+        padding: 0rem;
+    }
+
+    body .projetoDois{
+        padding: 0rem;
+    }
+
+    body .projetoTres{
+        padding: 0rem;
+    }
+}
+
+@media (min-width: 1200px){
+    body .projetoUm{
+        padding: 0rem;
+    }
+
+    body .projetoDois{
+        padding: 0rem;
+    }
+
+    body .projetoTres{
+        padding: 0rem;
+    }
+}
+
